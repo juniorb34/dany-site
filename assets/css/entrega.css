@@ -1,0 +1,72 @@
+@import url('https//fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Kaushan+Script&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+/*=======================  delivery  ============================*/
+
+#delivery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100;
+  padding-bottom: 400px;
+
+  padding-top: 100px;
+}
+#delivery div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#delivery h1 {
+  padding: 60px;
+  padding-bottom: 100px;
+  font-size: 30px;
+}
+
+#delivery p {
+  padding: 60px;
+  padding-bottom: 100px;
+  font-size: 40px;
+  font-family: 'Kaushan Script', cursive;
+  color: #70084ec4;
+}
+#delivery div img {
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+
+
+/*======================= Responsive  Header =======================*/
+
+@media (max-width: 900px) {
+  
+
+  #delivery {
+    padding-top: 0;
+    height: 100%;
+  }
+  #delivery div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    padding: 20px 20px;
+  }
+  #delivery h1 {
+    font-size: 1.4em;
+    text-align: center;
+  }
+}
