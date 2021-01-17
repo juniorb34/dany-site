@@ -3,7 +3,7 @@
 
 /*===== VARIABLES CSS =====*/
 :root {
-  --header-height: 4rem;
+  --header-height: 3rem;
 
   /*========== Colors ==========*/
   --first-color: #90069c;
@@ -115,7 +115,7 @@ img {
 
 /*========== CLASS CSS ==========*/
 .section {
-  padding: 3rem 0 2rem;
+  padding: 4rem 0 2rem;
 }
 
 .section-title,
