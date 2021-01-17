@@ -8,9 +8,6 @@
   scroll-behavior: smooth;
 }
 
-
-/*=======================  delivery  ============================*/
-
 #delivery {
   display: flex;
   flex-direction: column;
@@ -36,24 +33,16 @@
 #delivery p {
   padding: 60px;
   padding-bottom: 100px;
-  font-size: 40px;
+  font-size: 60px;
   font-family: 'Kaushan Script', cursive;
   color: #70084ec4;
 }
 #delivery div img {
   display: flex;
   flex-direction: column;
-
 }
 
-
-
-
-/*======================= Responsive  Header =======================*/
-
 @media (max-width: 900px) {
-  
-
   #delivery {
     padding-top: 0;
     height: 100%;
@@ -68,5 +57,15 @@
   #delivery h1 {
     font-size: 1.4em;
     text-align: center;
+  }
+
+  #delivery p {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  #delivery p {
+    font-size: 26px;
   }
 }
