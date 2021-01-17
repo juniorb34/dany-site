@@ -16,6 +16,7 @@
 
 .banner img {
   height: 200px;
+  padding: 20px 20px;
 }
 #delivery {
   display: flex;
@@ -82,6 +83,11 @@
   #delivery p {
     font-size: 26px;
   }
+
+  #delivery div a {
+    padding: 15px;
+  }
+
 
   .banner img {
     height: 150px;
